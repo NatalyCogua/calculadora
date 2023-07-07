@@ -1,0 +1,64 @@
+#calculadora {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 760px; 
+    height: 520px;
+    margin: 0 auto;
+    padding: 110px; 
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #resultado {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 24px;
+  }
+  
+  .fila {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .fila-igual {
+    justify-content: flex-end;
+  }
+  
+  button {
+    flex: 0 0 calc(25% - 10px);
+    height: 80px;
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #d0d0d0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c0c0c0;
+  }
+  
+  .funcion, .borrar {
+    background-color: #b0b0b0;
+  }
+  
+  .numero, .punto {
+    background-color: #d0d0d0;
+  }
+  
+  .operacion, .igual {
+    background-color: #ff8c00;
+    color: white;
+  }
+  
+  .igual{
+    flex-basis: calc(100% - 5px);
+  }
